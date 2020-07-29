@@ -1,18 +1,19 @@
-a{
-  display: flex;
+.Logo > img{
+  width:100%;
 }
 
 .Logo {
-    max-width: 200px;
-    min-width: 140px;
+    max-width: 168px;
+    display:flex;
     align-content: center;
-
   }
   @media (max-width: 800px) {
     .Logo {
       max-width: 105px;
     }
   }
+
+
   
   .Menu {
     width: 100%;
