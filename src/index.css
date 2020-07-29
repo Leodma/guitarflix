@@ -24,3 +24,10 @@ body {
 a {
   color: inherit;
 } 
+
+#root{
+  min-height: 100vh - 94px;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+}
