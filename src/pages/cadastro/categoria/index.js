@@ -27,7 +27,7 @@ function handleInput(el){
 
 useEffect(()=>{
   console.log('ativando o useEffect');
-  const URL = window.location.includes('localhost')?
+  const URL = window.location.hostname.includes('localhost')?
   'http://localhost:8081/categorias': 
   'https://guitarflix.herokuapp.com/categorias';
 
