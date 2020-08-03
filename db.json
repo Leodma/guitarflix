@@ -1,0 +1,12 @@
+{
+    "categorias":[
+       { "id":1,
+           "titulo":"Teoria Musical",
+        "descricao":"Aulas sobre teoria musical aplicadas na guitarra",
+        "cor":"#000"},
+       { "id":2,
+           "titulo":"Teoria Musical",
+        "descricao":"Aulas sobre teoria musical aplicadas na guitarra",
+        "cor":"#000"}
+    ]
+}

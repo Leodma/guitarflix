@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import PageDefault from '../../../components/PageDefault';
 import {Link} from 'react-router-dom';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 
 function CadastroCategoria(){
@@ -23,7 +24,17 @@ function handleInput(el){
   
   setValue(el.target.getAttribute('name'),el.target.value);
 }
- 
+
+useEffect(()=>{
+  console.log('ativando o useEffect');
+  const URL = 'http://localhost:8081/categorias';
+  fetch(URL)
+    .then(async(reposta_servidor)=>{
+      const resposta = await reposta_servidor.json();
+      console.log(resposta);
+      setCategorias(resposta);
+    })
+},[]);
 
     return(
       <>
@@ -60,8 +71,10 @@ function handleInput(el){
             onChange = {handleInput}
           />
     
-          <button type='submit'>Cadastrar</button>
+          <Button type='submit'>Cadastrar</Button>
         </form>
+
+        {categorias.length === 0 && (<div>Carregando ...</div>)}
 
         <h3>Categorias Existentes</h3>
         <ul>
