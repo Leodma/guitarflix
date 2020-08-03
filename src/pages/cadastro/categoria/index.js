@@ -27,7 +27,10 @@ function handleInput(el){
 
 useEffect(()=>{
   console.log('ativando o useEffect');
-  const URL = 'http://localhost:8081/categorias';
+  const URL = window.location.includes('localhost')?
+  'http://localhost:8081/categorias': 
+  'https://guitarflix.herokuapp.com/categorias';
+
   fetch(URL)
     .then(async(reposta_servidor)=>{
       const resposta = await reposta_servidor.json();
