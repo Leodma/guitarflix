@@ -1,12 +1,189 @@
 {
     "categorias":[
-       { "id":1,
-           "titulo":"Teoria Musical",
-        "descricao":"Aulas sobre teoria musical aplicadas na guitarra",
-        "cor":"#000"},
-       { "id":2,
-           "titulo":"Teoria Musical",
-        "descricao":"Aulas sobre teoria musical aplicadas na guitarra",
-        "cor":"#000"}
+       {
+            "id":1,
+            "titulo":"Teoria Musical",
+            "descricao":"Aulas sobre teoria musical aplicadas na guitarra",
+            "cor":"#000",
+            "link_extra": 
+            {
+                "text": "Teoria Musica, Escalas, Modos, Harmonia",
+                "url": "https://www.youtube.com/c/DescomplicandoamusicaBrteoriamusical"
+            }
+        },
+        {
+            "id":2,
+            "titulo":"Tablaturas",
+            "descricao":"Tablaturas de guitarra",
+            "cor":"#000",
+            "link_extra": 
+            {
+                "text": "Tablaturas Cifra Club",
+                "url": "https://www.youtube.com/channel/UCpypU2XLYmOsf36xgcgrW3w"
+            }
+
+        },
+        {
+            "id":3,
+            "titulo":"Técnicas",
+            "descricao":"Técnicas para tocar guitarra",
+            "cor":"#9cd33b",
+            "link_extra": 
+            {
+                "text": "Técnicas de guitarra",
+                "url": "#"
+            }
+
+        },
+        {
+            "id":4,
+            "titulo":"Backtracks",
+            "descricao":"Trilhas de fundo para acompanhamento",
+            "cor":"red",
+            "link_extra": 
+            {
+                "text": "Backtracks",
+                "url": "#"
+            }
+
+        }
+      
+    ],
+    "videos":[
+        {
+            "id":1,
+            "categoria":1,
+            "titulo": "Curso de Teoria Musical (Aula Completa do zero!)",
+            "url": "https://www.youtube.com/watch?v=GJC9zdMG1UQ"
+        },
+        {
+            "id":2,
+            "categoria":1,
+            "titulo": "O que é diminuta, aumentada, justa?! Entenda os Intervalos musicais - graus",
+            "url": "https://www.youtube.com/watch?v=EWb1ZoOjY6E&list=PL1ZdLDpEk8v3O5KMeEb8QQLB0dbLv6Cli&index=2"
+        },
+        {
+            "id":3,
+            "categoria":1,
+            "titulo": "Entendendo as Escalas Musicais",
+            "url": "https://www.youtube.com/watch?v=ZhRceLvP8Ao&list=PL1ZdLDpEk8v3O5KMeEb8QQLB0dbLv6Cli&index=3"
+        },
+        {
+            "id":4,
+            "categoria":1,  
+            "titulo": "O que é um acorde? Por que os acordes são maiores ou menores?",
+            "url": "https://www.youtube.com/watch?v=9088ULOLQa4&list=PL1ZdLDpEk8v3O5KMeEb8QQLB0dbLv6Cli&index=5"
+        },
+        {
+            "id":5,
+            "categoria":1, 
+            "titulo": "O que são tríades? Entenda",
+            "url": "https://www.youtube.com/watch?v=zDd4_MiTfGw&list=PL1ZdLDpEk8v3O5KMeEb8QQLB0dbLv6Cli&index=6"
+        },
+        {
+            "id":6,
+            "categoria":1,
+            "titulo": "Campo Harmônico sem mistério – 1 aula para 1.000 dúvidas",
+            "url": "https://www.youtube.com/watch?v=zUAt0BkBml8&list=PL1ZdLDpEk8v3O5KMeEb8QQLB0dbLv6Cli&index=9"
+        },
+        {
+            "id":7,
+            "categoria":1,
+            "titulo": "O que estudar para EVOLUIR na música!",
+            "url": "https://www.youtube.com/watch?v=l1o9ELLSUzY&list=PL1ZdLDpEk8v3O5KMeEb8QQLB0dbLv6Cli&index=10"
+        },
+        {
+            "id":8,
+            "categoria":2,
+            "titulo": "Dream On - Aerosmith",
+            "url": "https://www.youtube.com/watch?v=hFTvfh5LWcE&t=210s"
+          },
+          {
+            "id":9,
+            "categoria":2,
+            "titulo": "Bohemian Rhapsody - Queen (How to Play - Guitar Solo Lesson)",
+            "url": "https://www.youtube.com/watch?v=JFzE3F8hnAo"
+          },
+          {
+            "id":10,
+            "categoria":2,
+            "titulo": "Back In Black - AC/DC",
+            "url": "https://www.youtube.com/watch?v=yuKGo4MhUc8"
+          },
+          {
+            "id":11,
+            "categoria":2,
+            "titulo": "Sweet Home Alabama - Lynyrd Skynyrd",
+            "url": "https://www.youtube.com/watch?v=_HBjxyz2EZY&t=1306s"
+          }, 
+          {
+            "id":12,
+            "categoria":2,
+            "titulo": "Comfortably Numb - Pink Floyd (How to Play - Guitar Solo Lesson)",
+            "url": "https://www.youtube.com/watch?v=KA9Dw6UwW3w"
+          },
+          {
+            "id":13,
+            "categoria":3,
+            "titulo": "Guitarra para Iniciantes - Postura e Técnica",
+            "url": "https://www.youtube.com/watch?v=807PLKGSYrc"
+          },
+          {
+            "id":14,
+            "categoria":3,
+            "titulo": "Exercícios de Arpejo",
+            "url": "https://www.youtube.com/watch?v=7zo8LDUi8HY"
+          },
+          {
+            "id":15,
+            "categoria":3,
+            "titulo": "Técnicas de Guitarra - Vibratos (aula iniciante)",
+            "url": "https://www.youtube.com/watch?v=oQpLyyRCc6A"
+          },
+          {
+            "id":16,
+            "categoria":3,
+            "titulo": "Técnicas de Guitarra - Hammer-On (aula iniciante)",
+            "url": "https://www.youtube.com/watch?v=kXzfLSVwpGw"
+          },
+          {
+            "id":17,
+            "categoria":3,
+            "titulo": "Tétrades no Blues",
+            "url": "https://www.youtube.com/watch?v=Da1BYNbxB-M"
+          },
+          {
+            "id":18,
+            "categoria":4,
+            "titulo": "Aerosmith - Dream on [Backing Track With Vocals]",
+            "url": "https://www.youtube.com/watch?v=YVrBR1YwWy0"
+          },
+          {
+            "id":19,
+            "categoria":4,
+            "titulo": "Queen - Bohemian Rhapsody Solo Backing Track",
+            "url": "https://www.youtube.com/watch?v=kzDskFVdyQw"
+          },
+          {
+            "id":20,
+            "categoria":4,
+            "titulo": "AC/DC Back in black Backing Track (with vocals)",
+            "url": "https://www.youtube.com/watch?v=mLT97Si65PA"
+          },
+          {
+            "id":21,
+            "categoria":4,
+            "titulo": "Guitar Backing Track: Lynyrd Skynyrd - Sweet Home Alabama",
+            "url": "https://www.youtube.com/watch?v=LqO6lgbWOXI"
+          },
+          {
+            "id":22,
+            "categoria":4,
+            "titulo": "Pink Floyd - Comfortably Numb",
+            "url": "https://www.youtube.com/watch?v=wec4h8koJ1Q"
+          }       
     ]
+    
 }
+
+
